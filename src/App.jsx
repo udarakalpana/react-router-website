@@ -1,12 +1,13 @@
+import Navbar from "./components/common/navbar/Navbar.jsx";
+import Home from "./components/home/Home.jsx";
+
 const App = () => {
-
   return (
-      <div>
-          <h1 className="text-3xl font-bold underline">
-              Hello world!
-          </h1>
-      </div>
-  )
-}
+    <>
+      <Navbar />
+      <Home />
+    </>
+  );
+};
 
-export default App
+export default App;
